@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Remove Youtube Shorts ",
+    "version": "1.0",
+    "description": "With this extension you will no longer see any youtube shorts in your from page",
+    "author": "Fabian Rath",
+    "host_permissions": [
+      "https://www.youtube.com/"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
