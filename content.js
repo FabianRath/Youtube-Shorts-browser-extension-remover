@@ -6,4 +6,3 @@ window.addEventListener('DOMContentLoaded', () => {
       elements[i].remove();
     }
   });
-  
