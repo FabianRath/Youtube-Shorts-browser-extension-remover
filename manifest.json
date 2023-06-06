@@ -1,16 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Remove Youtube Shorts ",
-    "version": "1.0",
-    "description": "With this extension you will no longer see any youtube shorts on your front page",
-    "author": "Fabian Rath",
-    "host_permissions": [
-      "https://www.youtube.com/"
-    ],
-    "content_scripts": [
-      {
-        "matches": ["https://www.youtube.com/*"],
-        "js": ["content.js"]
-      }
-    ]
+  "manifest_version": 3,
+  "name": "Remove Youtube Shorts",
+  "version": "1.1",
+  "description": "Do yourself a favor and get rid of YouTube Shorts clips, Breaking News and Community Posts",
+  "author": "Fabian Rath",
+  "host_permissions": [
+    "https://www.youtube.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "19": "icon19.png",
+    "38": "icon38.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
+}
